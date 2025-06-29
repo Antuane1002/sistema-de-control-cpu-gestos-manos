@@ -1,0 +1,62 @@
+# Archivos de configuración sensibles
+.env
+*.env
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Logs
+*.log
+system.log
+debug_gestos.txt
+
+# Capturas de pantalla (opcional - puedes incluirlas si quieres)
+# screenshots/
+
+# Archivos temporales
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Base de datos (si usas SQLite)
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos de configuración local
+config_local.py
+settings_local.py 
